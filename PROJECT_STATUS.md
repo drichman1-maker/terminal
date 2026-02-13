@@ -8,6 +8,7 @@
 - Cap'n Proto zero-copy serialization pipeline
 - L3 order book aggregation across Big Four exchanges
 - Secure API key storage model defined
+- Initial code pushed to GitHub (https://github.com/drichman1-maker/terminal)
 
 ### Core Infrastructure
 - **Rust Backend** (Complete structure, stubs ready for implementation)
