@@ -1,0 +1,47 @@
+.global-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    height: 40px;
+    z-index: var(--z-header);
+}
+
+.ticker-tape {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-family: var(--font-data);
+    font-size: 12px;
+    color: var(--color-text-primary);
+}
+
+.ticker-item {
+    white-space: nowrap;
+}
+
+.ticker-divider {
+    color: var(--color-text-secondary);
+}
+
+.header-actions {
+    display: flex;
+    gap: var(--spacing-xs);
+}
+
+.header-btn {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    background-color: transparent;
+    border: none;
+    color: var(--color-text-secondary);
+    font-family: var(--font-data);
+    font-size: 12px;
+    cursor: pointer;
+    transition: color var(--transition-fast);
+}
+
+.header-btn:hover {
+    color: var(--color-text-primary);
+}

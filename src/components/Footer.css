@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-xs) var(--spacing-md);
+    background-color: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+    height: 28px;
+    font-size: 11px;
+    font-family: var(--font-data);
+}
+
+.connection-status {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--color-text-secondary);
+}
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.status-dot.connected {
+    background-color: var(--color-bullish);
+}
+
+.status-dot.disconnected {
+    background-color: var(--color-bearish);
+}
+
+.latency-monitor {
+    color: var(--color-text-secondary);
+}
+
+.latency-item .data {
+    color: var(--color-text-primary);
+}
